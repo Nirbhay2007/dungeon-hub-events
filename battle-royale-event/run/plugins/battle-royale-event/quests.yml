@@ -1,0 +1,405 @@
+# Dungeon Hub Battle Royale - Quest Configuration
+#
+# This file defines the 5 quests for each Quest Master.
+# Each Quest Master can have exactly 5 quests.
+#
+# Configuration Format:
+# quest-masters:
+#   <quest_master_id>:
+#     quests:
+#       <quest_number>:
+#         id: "unique_quest_id"
+#         name: "Display Name"
+#         description:
+#           - "First line of description"
+#           - "Second line of description"
+#         icon: "MATERIAL_NAME"
+#         reward-type: "ITEM/BUFF/MESSAGE"
+#         reward-data: "reward specific data"
+#         requirements:
+#           level: 0
+#           completed-quests: []
+#           items: {}
+#         available: true
+
+quest-masters:
+  temple_zeroth:
+    quests:
+      '1':
+        id: zeroth_1
+        name: Swift Hunter
+        description:
+        - Eliminate 3 opponents quickly
+        - to prove your speed and agility
+        icon: IRON_SWORD
+        reward-type: ITEM
+        reward-data: POTION:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '2':
+        id: zeroth_2
+        name: Speed Demon
+        description:
+        - Survive for 5 minutes without
+        - taking damage
+        icon: FEATHER
+        reward-type: BUFF
+        reward-data: SPEED:2:600
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '3':
+        id: zeroth_3
+        name: Wind Walker
+        description:
+        - Travel 1000 blocks without
+        - stopping to rest
+        icon: LEATHER_BOOTS
+        reward-type: ITEM
+        reward-data: ELYTRA:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '4':
+        id: zeroth_4
+        name: Lightning Strike
+        description:
+        - Get 5 eliminations in
+        - under 60 seconds
+        icon: LIGHTNING_ROD
+        reward-type: BUFF
+        reward-data: SPEED:3:300
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '5':
+        id: zeroth_5
+        name: Master of Velocity
+        description:
+        - Complete all other Zeroth
+        - temple quests
+        icon: NETHER_STAR
+        reward-type: ITEM
+        reward-data: DIAMOND_BOOTS:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests:
+          - zeroth_1
+          - zeroth_2
+          - zeroth_3
+          - zeroth_4
+        available: true
+  temple_primus:
+    quests:
+      '1':
+        id: primus_1
+        name: Treasure Hunter
+        description:
+        - Collect 10 golden items
+        - from eliminated opponents
+        icon: GOLD_INGOT
+        reward-type: ITEM
+        reward-data: GOLDEN_APPLE:3
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '2':
+        id: primus_2
+        name: Hoarder
+        description:
+        - Accumulate 64 emeralds
+        - through trading and finding
+        icon: EMERALD
+        reward-type: ITEM
+        reward-data: EMERALD_BLOCK:2
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '3':
+        id: primus_3
+        name: Wealthy Warrior
+        description:
+        - Spend 100 emeralds on
+        - equipment upgrades
+        icon: EMERALD_BLOCK
+        reward-type: BUFF
+        reward-data: LUCK:2:1200
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '4':
+        id: primus_4
+        name: Golden Guardian
+        description:
+        - Protect golden items for
+        - 10 minutes without losing any
+        icon: GOLDEN_CHESTPLATE
+        reward-type: ITEM
+        reward-data: ENCHANTED_GOLDEN_APPLE:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '5':
+        id: primus_5
+        name: Master of Wealth
+        description:
+        - Become the richest player
+        - in the battle royale
+        icon: DIAMOND
+        reward-type: ITEM
+        reward-data: DIAMOND_BLOCK:3
+        requirements:
+          level: 0
+          items: {}
+          completed-quests:
+          - primus_1
+          - primus_2
+          - primus_3
+          - primus_4
+        available: true
+  temple_secundus:
+    quests:
+      '1':
+        id: secundus_1
+        name: Defensive Stance
+        description:
+        - Block 20 attacks using
+        - a shield successfully
+        icon: SHIELD
+        reward-type: BUFF
+        reward-data: RESISTANCE:1:600
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '2':
+        id: secundus_2
+        name: Survivor
+        description:
+        - Take 100 damage without
+        - dying in a single match
+        icon: TOTEM_OF_UNDYING
+        reward-type: ITEM
+        reward-data: SHIELD:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '3':
+        id: secundus_3
+        name: Iron Will
+        description:
+        - Survive in the final circle
+        - for 2 minutes
+        icon: IRON_INGOT
+        reward-type: BUFF
+        reward-data: RESISTANCE:2:900
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '4':
+        id: secundus_4
+        name: Damage Sponge
+        description:
+        - Absorb 500 total damage
+        - from all sources
+        icon: SPONGE
+        reward-type: ITEM
+        reward-data: DIAMOND_CHESTPLATE:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '5':
+        id: secundus_5
+        name: Fortress Master
+        description:
+        - Prove your defensive mastery
+        - by completing all trials
+        icon: OBSIDIAN
+        reward-type: BUFF
+        reward-data: RESISTANCE:3:1800
+        requirements:
+          level: 0
+          items: {}
+          completed-quests:
+          - secundus_1
+          - secundus_2
+          - secundus_3
+          - secundus_4
+        available: true
+  temple_tertius:
+    quests:
+      '1':
+        id: tertius_1
+        name: Blade Dancer
+        description:
+        - Get 10 eliminations using
+        - only melee weapons
+        icon: DIAMOND_SWORD
+        reward-type: ITEM
+        reward-data: ENCHANTED_BOOK:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '2':
+        id: tertius_2
+        name: Combo Master
+        description:
+        - Achieve a 5-elimination
+        - killstreak
+        icon: ENCHANTED_BOOK
+        reward-type: BUFF
+        reward-data: STRENGTH:1:600
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '3':
+        id: tertius_3
+        name: Weapon Collector
+        description:
+        - Obtain and use 10 different
+        - weapon types
+        icon: ITEM_FRAME
+        reward-type: ITEM
+        reward-data: DIAMOND_AXE:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '4':
+        id: tertius_4
+        name: Duelist
+        description:
+        - Win 3 1v1 fights in
+        - single combat
+        icon: GOLDEN_SWORD
+        reward-type: BUFF
+        reward-data: STRENGTH:2:900
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '5':
+        id: tertius_5
+        name: Grandmaster Warrior
+        description:
+        - Demonstrate complete mastery
+        - of combat arts
+        icon: NETHERITE_SWORD
+        reward-type: ITEM
+        reward-data: NETHERITE_SWORD:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests:
+          - tertius_1
+          - tertius_2
+          - tertius_3
+          - tertius_4
+        available: true
+  temple_quartus:
+    quests:
+      '1':
+        id: quartus_1
+        name: High Jumper
+        description:
+        - Reach the highest point
+        - on the battle royale map
+        icon: RABBIT_FOOT
+        reward-type: BUFF
+        reward-data: JUMP_BOOST:2:600
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '2':
+        id: quartus_2
+        name: Aerial Ace
+        description:
+        - Get an elimination while
+        - airborne
+        icon: ELYTRA
+        reward-type: ITEM
+        reward-data: ELYTRA:1
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '3':
+        id: quartus_3
+        name: Parkour Master
+        description:
+        - Complete a challenging
+        - parkour course
+        icon: SLIME_BALL
+        reward-type: BUFF
+        reward-data: JUMP_BOOST:3:900
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '4':
+        id: quartus_4
+        name: Sky Walker
+        description:
+        - Spend 5 minutes continuously
+        - in the air
+        icon: PHANTOM_MEMBRANE
+        reward-type: ITEM
+        reward-data: FIREWORK_ROCKET:10
+        requirements:
+          level: 0
+          items: {}
+          completed-quests: []
+        available: true
+      '5':
+        id: quartus_5
+        name: Master of Heights
+        description:
+        - Conquer the skies and prove
+        - your aerial superiority
+        icon: DRAGON_HEAD
+        reward-type: BUFF
+        reward-data: LEVITATION:1:300
+        requirements:
+          level: 0
+          items: {}
+          completed-quests:
+          - quartus_1
+          - quartus_2
+          - quartus_3
+          - quartus_4
+        available: true

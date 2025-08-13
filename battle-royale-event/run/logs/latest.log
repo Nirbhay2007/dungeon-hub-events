@@ -1,0 +1,80 @@
+[10:28:53] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin '/Users/nirbhay_garg/Desktop/dungeon-hub-events-main/battle-royale-event/build/libs/battle-royale-event-1.0-SNAPSHOT-all.jar'...
+[10:28:54] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin '/Users/nirbhay_garg/Desktop/dungeon-hub-events-main/battle-royale-event/build/libs/battle-royale-event-1.0-SNAPSHOT-all.jar' in 1253ms.
+[10:28:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:28:59] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[10:28:59] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[10:29:00] [ServerMain/INFO]: No existing world data, creating new world
+[10:29:01] [ServerMain/INFO]: Loaded 1175 recipes
+[10:29:01] [ServerMain/INFO]: Loaded 1276 advancements
+[10:29:01] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[10:29:01] [Server thread/INFO]: Loading properties
+[10:29:01] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[10:29:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:29:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:29:03] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[10:29:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[10:29:04] [Server thread/INFO]: Default game type: SURVIVAL
+[10:29:04] [Server thread/INFO]: Generating keypair
+[10:29:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:29:04] [Server thread/INFO]: Using default channel type
+[10:29:04] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[10:29:04] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[10:29:04] [Server thread/INFO]: [battle-royale-event] Loading server plugin battle-royale-event v1.0-SNAPSHOT
+[10:29:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:29:04] [Server thread/INFO]: Preparing level "world"
+[10:29:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:29:20] [Server thread/INFO]: Time elapsed: 4934 ms
+[10:29:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:29:22] [Server thread/INFO]: Time elapsed: 1449 ms
+[10:29:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:29:22] [Server thread/INFO]: Time elapsed: 462 ms
+[10:29:22] [Server thread/INFO]: [battle-royale-event] Enabling battle-royale-event v1.0-SNAPSHOT
+[10:29:24] [Server thread/INFO]: [battle-royale-event] Loaded 5 Quest Masters
+[10:29:25] [Server thread/INFO]: [battle-royale-event] Dungeon Hub Battle Royale Plugin enabled with Quest GUI system!
+[10:29:25] [Server thread/INFO]: Running delayed init tasks
+[10:29:25] [Server thread/INFO]: Done (24.010s)! For help, type "help"
+[10:29:25] [Server thread/INFO]: Timings Reset
+[10:29:25] [Server thread/INFO]: NirbhayG (/127.0.0.1:62841) lost connection: Disconnected
+[10:29:26] [User Authenticator #0/INFO]: UUID of player NirbhayG is fc789cc7-e8e5-462a-b39a-8fad246d46c9
+[10:29:34] [Server thread/INFO]: NirbhayG joined the game
+[10:29:34] [Server thread/INFO]: NirbhayG[/127.0.0.1:62849] logged in with entity id 40 at ([world]46.5, 64.0, 77.5)
+[10:29:55] [Server thread/INFO]: Nothing changed. The player already is an operator
+[10:30:04] [Server thread/INFO]: NirbhayG issued server command: /gamemode creative
+[10:30:04] [Server thread/INFO]: [NirbhayG: Set own game mode to Creative Mode]
+[10:30:15] [Server thread/INFO]: NirbhayG issued server command: /questmaster tp temple_fire
+[10:30:57] [Server thread/INFO]: NirbhayG issued server command: /questmaster gui
+[10:30:59] [Server thread/INFO]: NirbhayG issued server command: /questmaster gui temple_fire
+[10:31:05] [Server thread/INFO]: NirbhayG issued server command: /questmaster gui temple_light
+[10:31:13] [Server thread/INFO]: NirbhayG issued server command: /questmaster tp temple_forest
+[10:31:35] [Server thread/INFO]: NirbhayG issued server command: /questmaster
+[10:31:41] [Server thread/INFO]: NirbhayG lost connection: Disconnected
+[10:31:41] [Server thread/INFO]: NirbhayG left the game
+[10:41:52] [Server thread/INFO]: Stopping server
+[10:41:52] [Server thread/INFO]: [battle-royale-event] Disabling battle-royale-event v1.0-SNAPSHOT
+[10:41:52] [Server thread/INFO]: [battle-royale-event] Dungeon Hub Battle Royale Plugin disabled!
+[10:41:52] [Server thread/INFO]: Saving players
+[10:41:52] [Server thread/INFO]: Saving worlds
+[10:41:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:41:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:41:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:41:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:41:52] [Server thread/INFO]: [ChunkHolderManager] Saved 366 block chunks, 116 entity chunks, 5 poi chunks in world 'world' in 0.16s
+[10:41:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:41:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:41:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:41:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:41:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:41:53] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.11s
+[10:41:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:41:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:41:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:41:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:41:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:41:53] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.10s
+[10:41:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:41:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:41:53] [Server thread/INFO]: Flushing Chunk IO
+[10:41:53] [Server thread/INFO]: Closing Thread Pool
+[10:41:53] [Server thread/INFO]: Closing Server

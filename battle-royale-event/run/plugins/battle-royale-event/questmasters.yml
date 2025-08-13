@@ -1,0 +1,56 @@
+questmasters:
+  temple_zeroth:
+    name: Quest Master Zeroth
+    world: world
+    x: 100
+    y: 70
+    z: 100
+    message: Welcome to the Zeroth Temple! I grant you ancient power.
+    one-time-use: true
+    cooldown: 0
+    reward-type: BUFF
+    reward-data: SPEED:2:300
+  temple_fire:
+    name: Quest Master Fire Temple
+    world: world
+    x: -100
+    y: 70
+    z: 100
+    message: Welcome to the Fire Temple! I grant you ancient power.
+    one-time-use: true
+    cooldown: 0
+    reward-type: ITEM
+    reward-data: GOLDEN_APPLE:2
+  temple_ice:
+    name: Quest Master Ice Temple
+    world: world
+    x: 100
+    y: 70
+    z: -100
+    message: Welcome to the Ice Temple! I grant you ancient power.
+    one-time-use: true
+    cooldown: 0
+    reward-type: BUFF
+    reward-data: RESISTANCE:1:600
+  temple_forest:
+    name: Quest Master Forest Temple
+    world: world
+    x: -100
+    y: 70
+    z: -100
+    message: Welcome to the Forest Temple! I grant you ancient power.
+    one-time-use: true
+    cooldown: 0
+    reward-type: ITEM
+    reward-data: DIAMOND_SWORD:1
+  temple_light:
+    name: Quest Master Light Temple
+    world: world
+    x: 0
+    y: 80
+    z: 0
+    message: Welcome to the Light Temple! I grant you ancient power.
+    one-time-use: true
+    cooldown: 0
+    reward-type: ABILITY
+    reward-data: JUMP_BOOST:3:900
