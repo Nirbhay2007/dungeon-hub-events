@@ -45,12 +45,12 @@ class BattleRoyaleEvent : JavaPlugin() {
 
     override fun onDisable() {
         // Clean up Quest Masters
-        if (questMasterManager.isInitialized) {
+        if (::questMasterManager.isInitialized) {
             questMasterManager.cleanup()
         }
         
         // Clean up GUI system
-        if (questGUIManager.isInitialized) {
+        if (::questGUIManager.isInitialized) {
             questGUIManager.clearAllProgress()
         }
         
